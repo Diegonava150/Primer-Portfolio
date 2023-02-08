@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel = "icon" href = 
+"assets/icons/logo2.png" 
+        type = "image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/ad79e0e7e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | Diego Navarro Ruiz</title>
+  </head>
+  <header>
+    <nav id="navbar" class="nav">
+      <!--* LOGO -->
+      <div class="logo"><img src="assets/images/logo.png" alt="Logo"></div>
+
+      <!--* NAVIGATION MENU -->
+      <ul class="nav-list">
+        <!--* USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">Menu &#9776;</label>
+
+        <!--* NAVIGATION MENUS -->
+        <div class="menu">
+          <li>
+            <a href="#welcome-section">Sobre mi</a>
+          </li>
+          <li>
+            <a href="#projects">Trabajo</a>
+          </li>
+          <li>
+            <a href="#contact">Contacto</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <body>
+
+
+    <section id="welcome-section" class="welcome-section">
+      <img class="profile-picture" src="assets/images/profile-picture.jpg" alt="Profile Photo">
+      <h1>Diego Jose Navarro Ruiz</h1>
+      <p>
+        Soy un estudiante con conocimientos básicos de front-end y back-end, mi meta es ser
+                un full-stack developer.
+      </p>
+    </section>
+
+
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">
+        Estos son algunos de mis proyectos
+      </h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/diegonava150/pen/OJwYMPm"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="assets/images/project1.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute Page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/diegonava150/pen/RwBmrwR"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="assets/images/project2.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Survey Form
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      </div>
+
+      <a
+        href="#"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>¡Contáctame!</h2>
+      </div>
+      <div class="contact-links">
+        <a
+          id="profile-link"
+          href="https://github.com/Diegonava150"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://api.whatsapp.com/send?phone=573003391905&text=%F0%9F%91%8B%20Hit%20me%20up"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fa-brands fa-whatsapp"></i> Whatsapp</a
+        >
+        <a
+          href=mailto:diegojose150@gmail.com"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fas fa-at"></i> Envía un correo</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Diego Jose Navarro Ruiz</p>
+      <p>
+        <a href="#" target="_blank">Fuente del código</a>
+      </p>
+    </footer>
+  </body>
+</html>
